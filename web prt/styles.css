@@ -1,0 +1,486 @@
+/*mobile screen */
+@media only screen and (min-width:320px) {
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    main {
+        background-color: #181a1b;
+        color: white;
+    }
+
+    .container {
+        max-width: var(--container);
+        width: calc(100% - 2rem);
+        padding: 0 1rem;
+        margin: 0 auto;
+    }
+
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        box-shadow: 0 0 0.4rem rgba(139, 150, 214, 0.5);
+    }
+
+    a {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .mobile-container {
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0px 35px 0px 0px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        color: white;
+      }
+
+    form {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .ab {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 3px;
+        padding: 12px 22px;
+    }
+
+    section {
+        padding: 0px;
+    }
+
+    /* ABOUT SCETION */
+
+    #about {
+        padding: 0px 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    #ac {
+        max-width: 800px;
+        margin: 0 auto;
+        border-radius: 4px;
+        color: black;
+        padding: 24px 30px;
+        background-color: white;
+        box-shadow: 20px 20px 5px #333;
+    }
+
+    .about-content {
+        margin-bottom: 40px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    #skills {
+        text-align: center;
+    }
+
+    .skills {
+        margin-top: 30px;
+    }
+
+    .skills h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .skills-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .skills-list li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .skills-list li i {
+        margin-right: 10px;
+    }
+
+    /*PRICE  SECTION*/
+
+    .ph3 {
+        margin-top: 0px;
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin-left: 10%;
+    }
+
+    .b {
+        background: #181a1b;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .p {
+        color: white;
+        background: black;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    hr {
+        border-right: 0px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-top-color: rgb(53, 57, 59);
+    }
+
+    .card {
+        border-radius: 8px;
+        padding: 8px;
+        width: 65%;
+        background-color: #494f52;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15%;
+        color: white;
+    }
+
+    .card ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .card ul li {
+        padding: 5px 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .butt {
+        color: #fff;
+        font-size: 16px;
+        margin-left: 2px;
+        color: rgb(232, 230, 227);
+        margin-top: 5px;
+        margin-bottom: 10px;
+        background: black;
+        border-radius: 8px;
+        padding: 4px 20px;
+        box-shadow: 2px 2px;
+    }
+
+
+    .libutton {
+        padding: 24px 16px;
+        color: #d3d3d3;
+        background: #181a1b;
+    }
+
+    .cp {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /*CONTACT SECTION */
+
+    #map {
+        width: 100%;
+        margin: 0px 0px 25px;
+    }
+
+    form {
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #cf {
+        border: solid 1px;
+        margin: 0px, 0px 0px 5px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    section {
+        padding: 8px 0;
+    }
+
+    section h1,
+    section h2 {
+        text-align: center;
+    }
+
+
+
+
+    .input-group {
+        margin-bottom: 20px;
+    }
+
+    .input-group label {
+        display: block;
+        color: white;
+        margin: 0px 10px 5px 10px;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        width: 85%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin: 0px 0px 0px 10px;
+        background: wwhite;
+    }
+
+    .input-group input:focus,
+    .input-group textarea:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+
+    .input-group .fa {
+        margin-right: 5px;
+    }
+
+    form button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* PROJECT SECTION */
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+    }
+
+    .project {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .project img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    .project h3 {
+        margin-top: 10px;
+    }
+
+    .project p {
+        color: #666;
+    }
+
+    .button {
+        border: none;
+        color: black;
+        padding: 10px 24px;
+        text-align: center;
+        background-color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    /* FOOTER SEECTION */
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+}
+
+/* * For Tablet Mockup */
+@media only screen and (min-width:768px) {
+    #header {
+        display: flex;
+    }
+
+    .logo-image {
+        width: 10%;
+        margin: 12px;
+    }
+
+    nav ul {
+        list-style: none;
+        text-align: center;
+        padding: 14px 16px;
+        flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-left: 30%;
+    }
+
+    .lb {
+        margin: 0px;
+    }
+
+    .ab {
+        padding: 10px 20px;
+        width: 35%;
+    }
+
+    skills-grid ul {
+        justify-content: center;
+        /* Center the grid items horizontally */
+    }
+
+    .skills-grid ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .skills-grid ul li {
+        display: flex;
+        align-items: center;
+    }
+
+    .skills-grid ul li i {
+        margin-right: 10px;
+    }
+
+    /*ABOUT PAGE STYLE */
+
+    #about {
+        width: 90%;
+        margin: 0px 0px 0px 40px;
+    }
+
+    .about-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .about-interests {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .about-list ul li {
+        display: flex;
+        align-items: center;
+    }
+
+    .about-list ul li i {
+        margin-right: 10px;
+    }
+
+    .about-h3 {
+        text-align: center;
+    }
+
+    #cc {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .card {
+        box-shadow: 20px 20px 5px #333;
+        width: 70%;
+    }
+
+    /* CONTACT PAGE */
+    .input-group input,
+    .input-group textarea {
+        margin: 4px 0px 0px 36px;
+    }
+
+    .input-group label {
+        margin: 0px 0px 7px 14px;
+    }
+
+    form button {
+        margin: 0px 20% 0px 24%;
+        width: 50%;
+    }
+}

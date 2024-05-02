@@ -1,0 +1,59 @@
+Homepage:
+
+Welcome Message: "Welcome to [Website Name], your go-to destination for delicious recipes from around the world! Whether you're a seasoned chef or just starting out in the kitchen, we've got something for everyone."
+Search Bar: "Search for recipes by name, ingredient, or category..."
+Popular Recipes:
+[Thumbnail Image] Recipe Title: "Start your culinary adventure with these popular recipes loved by our community!"
+[Thumbnail Image] Recipe Title: "Indulge in these crowd-pleasing favorites for your next meal."
+[Thumbnail Image] Recipe Title: "Discover new flavors and techniques with these trending recipes."
+Recipe Listings:
+
+Category: Breakfast
+[Thumbnail Image] Recipe Title: "Wake up to a delicious breakfast with these easy-to-make recipes that will fuel your day."
+[Thumbnail Image] Recipe Title: "Start your morning right with these nutritious and mouthwatering breakfast ideas."
+Category: Lunch
+[Thumbnail Image] Recipe Title: "Satisfy your midday cravings with these flavorful and satisfying lunch options."
+[Thumbnail Image] Recipe Title: "Upgrade your lunch game with these quick and delicious recipes perfect for any occasion."
+Category: Dinner
+[Thumbnail Image] Recipe Title: "From comforting classics to gourmet delights, these dinner recipes will impress any palate."
+[Thumbnail Image] Recipe Title: "Create memorable dining experiences at home with these dinner ideas that are sure to please."
+Recipe Details Page:
+
+Recipe Title: "[Recipe Title]"
+[Recipe Image]
+Rating Stars: [Rating Stars]
+Ingredients:
+Ingredient 1
+Ingredient 2
+Ingredient 3
+Instructions:
+Step 1
+Step 2
+Step 3
+User Reviews:
+User1: "This recipe was amazing! Will definitely make it again."
+User2: "Easy to follow instructions and delicious results."
+User Submission Form:
+
+Recipe Title: [Text Field]
+Ingredients: [Textarea]
+Instructions: [Textarea]
+Cooking Time: [Text Field]
+Difficulty Level: [Dropdown]
+Photo Upload: [File Upload Button]
+Submit Button: "Submit Your Recipe"
+User Profile Pages:
+
+User's Submitted Recipes:
+[Thumbnail Image] Recipe Title: "Browse through your submitted recipes and track your culinary creations."
+[Thumbnail Image] Recipe Title: "Share your favorite recipes with the community and showcase your cooking skills."
+User's Favorite Recipes:
+[Thumbnail Image] Recipe Title: "Explore and save your favorite recipes to revisit later for your next cooking adventure."
+[Thumbnail Image] Recipe Title: "Discover new favorites recommended by other users and add them to your collection."
+User's Reviews:
+[Recipe Title]: "This recipe was amazing! Will definitely make it again."
+Social Sharing:
+
+Share on Facebook Button
+Share on Twitter Button
+Share on Pinterest Button

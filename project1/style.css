@@ -1,0 +1,297 @@
+/*mobile screen */
+@media only screen and (min-width:320px) {
+    body {
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    header {
+        background-color: #f7beb9;
+        margin: 0;
+        padding: 10px;
+    }
+
+    h2 {
+        color: red;
+    }
+
+
+    nav ul {
+        list-style: none;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #links a {
+        text-decoration: none;
+        color: #ffff;
+    }
+
+    #logo {
+        width: 0;
+    }
+
+    .bi {
+        background-image: url(./images/recipies/b5.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bitext {
+        padding: 10px;
+    }
+
+
+    .bib {
+        margin: 0px 0px 10px 0px;
+        background-color: #FFD700;
+        color: white;
+        border-radius: 2px;
+        padding: 6px 48px;
+    }
+
+    .popular-recipes {
+        text-align: center;
+    }
+  
+    section {
+        text-align: center;
+    }
+
+    .ri {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    
+    .stars {
+        color: orange;
+    }
+
+    .recipe-listings {
+        text-align: center;
+        background-color: #f1f1f1;
+        padding: 10px;
+    }
+
+
+    .recipeU {
+        padding: 8px;
+        margin: 10px 10px 10px 10px;
+        color: white;
+    }
+
+    .recipeU li {
+        margin-bottom: 20px;
+        list-style: none;
+    }
+
+    #ruc q {
+        color: red
+    }
+
+    #ruc {
+        background-color: white;
+        color: black
+    }
+
+    .rclb {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .ub {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .recipeC {
+        border-radius: 6px;
+        color: black;
+        text-align: center;
+        background-color: white;
+        width: 70%;
+        margin: 30px 50px 30px 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .rating {
+        margin: 10px;
+    }
+
+    .rci {
+        width: 100%;
+    }
+
+    #rlh {
+        color: #FFD700;
+        font-weight: bold;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .recipe-details {
+        text-align: center;
+    }
+
+    .recipeU ul {
+        padding: 8px;
+    }
+
+    .rdi {
+        width: 100%;
+    }
+
+    .container {
+        background-color: #f7beb9;
+        padding: 1px;
+    }
+
+    .ingredients h4 {
+        color: red;
+    }
+
+    .instructions h4 {
+        color: red;
+    }
+
+    .ingredients li {
+        padding: 10px;
+    }
+
+
+    .instructions li {
+        list-style: none;
+    }
+
+    .user {
+        width: 100px;
+        border-radius: 50%;
+        margin: 20px;
+    }
+
+    .user-reviews li {
+        padding: 8px;
+        list-style: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 15px;
+    }
+
+    .user-profile-pages {
+        text-align: center;
+        background-color:#f7beb9;
+        padding: 10px;
+    }
+
+    .social-sharing {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .fa {
+        padding: 5px;
+        font-size: 20px;
+        width: 8%;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .fa-pinterest {
+        background: #cb2027;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    footer {
+        background-color: #FF6347;
+        color: #fff;
+        text-align: center;
+        padding: 4px 0;
+    }
+}
+
+/* * For Tablet Mockup */
+@media only screen and (min-width:768px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 18px;
+    }
+
+    .popular-recipes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+
+    .category {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .rci {
+        width: 100%;
+    }
+
+    .rdi {
+        width: 100%;
+    }
+
+    .recipeC {
+        width: 83%;
+        margin: 10px 40px 10px 40px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .user {
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+        margin:0px;
+    }
+
+    .user-reviews ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .submitted-recipes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

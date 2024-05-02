@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Dump</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-PjDFR3t0flOBN4HjFJ6igAo+n/RI8z+i56ORLe7gOm7z0HsjFArO2prNqDAwa8nW" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-uFCfBC5iX7b8gV5k9q1KvheUXtFhF41cBjZQ1RUd9RY5kZMZyVfjGSLqmxK1PIzBT8Ol9OnEX3gCQ61LiX3b3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+                <img id="logo" src="./images/logo/l3.png" alt="">
+                <div id="links">
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Recipes">Recipes</a></li>
+                        <li><a href="#user">User</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- HOME -->
+        <section id="Home" class="bi">
+            <div class="bitext">
+                <h1>Welcome to Recipe Dump</h1>
+                <p>Your go-to destination for delicious recipes from around the world!</p>
+                <a href="#Recipes"><button class="bib" type="submit">View More</button></a>
+            </div>
+        </section>
+
+        <!-- RECIPES -->
+        <section id="Recipes">
+            <h2>Popular Recipes</h2>
+            <hr>
+            <div class="popular-recipes">
+                <div class="recipe">
+                    <div>
+                        <img class="ri" src="./images/recipies/Caramelized-Onion-Pasta-recipe-100419.webp"
+                            alt="Recipe 1">
+                        <div>
+                            <h3>Savor the Sweetness: Caramelized Onion Pasta Perfection</h3>
+                            <span class="stars">★★★★★</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <div>
+                        <img class="ri" src="./images/recipies/PhillyFluffCake_RECIPE_061523_55062.webp" alt="Recipe 2">
+                    </div>
+                    <div>
+                        <h3>Philly Fluff Delight: A Heavenly Twist on Classic Cake Bliss</h3>
+                        <span class="stars">★★★★☆</span>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <div>
+                        <img class="ri" src="./images/recipies/duck-a-lorange_RECIPE_110823_4982_V1_final.webp"
+                            alt="Recipe 3">
+                    </div>
+                    <div>
+                        <h3>Elegant Indulgence: Mastering Duck à l’Orange with Citrus Infusion</h3>
+                        <span class="stars">★★★★★</span>
+                    </div>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </section>
+
+        <!-- CATEGORY -->
+        <section class="recipe-listings">
+            <h2>Recipe Listings</h2>
+            <h3 id="rlh">Breakfast</h3>
+            <div class="category">
+                <div class="recipeC">
+                    <img class="rci" src="./images/recipies/031423-suhoor-roti-omelet-rollup-lede.webp"
+                        alt="Breakfast Recipe 1">
+                    <p><button class="rclb">Quick and Cheesy Omelet Roll-up</button></p>
+                </div>
+                <div class="recipeC">
+                    <img class="rci" src="./images/recipies/chocolate-crossiant-dough-howto-HERO-12052017.webp" alt="">
+                    <div>
+                        <p><button class="rclb">Chocolate Croissants (Pains au Chocolat)</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 id="rlh">Lunch</h3>
+            <div class="category">
+                <div class="recipeC">
+                    <img class="rci" src="./images/recipies/Vegetarian-Skillet-Stuffed-Shells-01112018.webp"
+                        alt="Breakfast Recipe 1">
+                    <div>
+                        <p><button class="rclb"> Vegetariam Skillet Stuffed Shells</button></p>
+                    </div>
+                </div>
+                <div class="recipeC">
+                    <img class="rci" src="./images/recipies/EP_05102016_PeruvianStyleRoastChicken_recipe_.webp"
+                        alt="Breakfast Recipe 2">
+                    <div>
+                        <p><button class="rclb">Peruvian-Style Roast Chicken With Tangy Green Sauce</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 id="rlh">Dinner</h3>
+            <div class="category">
+                <div class="recipeC">
+                    <img class="rci" src="./images/recipies/ThreeCupChicken_RECIPE_111821_23722.webp"
+                        alt="Breakfast Recipe 1">
+                    <div>
+                        <p><button class="rclb"> Three-Cup Chicken (San Bei Ji)</button></p>
+                    </div>
+                </div>
+                <div class="recipeC">
+                    <img class="rci" src="./images/recipies/CacciatoreShrimpandRice_RECIPE_012322_25999.webp"
+                        alt="Breakfast Recipe 2">
+                    <div>
+                        <p><button class="rclb">One-Pot Spiced Shrimp and Rice</button></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipe-details">
+            <h2>Recipe Details</h2>
+            <hr>
+            <div class="recipe">
+                <h3>Dirty Martini Chicken Thighs</h3>
+                <img class="rdi" src="./images/recipies/02222024-BONAPPETIT-CHELSEAKYLE-178103_resize.webp"
+                    alt="Recipe Image">
+                <div class="rating">
+                    Rating: <span class="stars">★★★★☆</span>
+                </div>
+                <div class="container">
+                    <div class="ingredients">
+                        <h4>Ingredients</h4>
+                        <hr>
+                        <ol>
+                            <li><strong>lb. skin-on, bone-in chicken thighs (4–6)</strong></li>
+                            <li><strong>1 tsp. freshly ground pepper</strong></li>
+                            <li>
+                                <strong>2 tsp. Diamond Crystal or 1¼ tsp. Morton kosher salt, plus more</strong>
+                            </li>
+                            <li><strong>3 Tbsp. extra-virgin olive oil</strong></li>
+                            <li><strong>3 medium shallots, thinly sliced</strong></li>
+                            <li><strong>12 garlic cloves, thinly sliced</strong></li>
+                            <li><strong>1 Tbsp. all-purpose flour</strong>></li>
+                            <li><strong>1¼ cups dry vermouth</strong>></li>
+                            <li><strong>1 cup low-sodium chicken broth</strong>></li>
+                            <li>
+                                <strong>1 5.5-oz. jar pitted Castelvetrano or other green olives, rinsed (about 1 cup),
+                                    brine
+                                    reserved (about ⅔ cup)</strong>
+                            </li>
+                            <li><strong> ⅔ cup vodka, divided </strong>></li>
+                            <li><strong> 1 tsp. finely grated lemon zest
+                                    Parsley leaves with tender stems and lemon wedges (optional; for serving)</strong>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="instructions">
+                        <h4>Preparation</h4>
+                        <hr>
+                        <ol>
+                            <li>
+
+                                <h4>Step 1</h4>
+                                <p>Place a rack in middle of oven; preheat to 350°. Pat<strong>2 lb. skin-on, bone-in
+                                        chicken
+                                        thighs (4–6)</strong> dry with paper towels and sprinkle all over with
+                                    <strong>1 tsp. freshly ground pepper</strong>and <strong>
+                                        2 tsp. Diamond Crystal or 1¼ tsp. Morton kosher salt
+                                    </strong>
+                                </p>
+                                <h4>Step 2</h4>
+                                <p>Pour <strong>3 Tbsp. extra-virgin olive oil</strong> into a cold large high-sided
+                                    ovenproof
+                                    skillet or short-sided pot over medium (you want the vessel to be at least 3½-qt.
+                                    capacity;
+                                    if you don’t have any of the preferred options, a medium Dutch oven will work).
+                                    Arrange
+                                    chicken thighs, skin side down, in pan and set over medium heat. Cook, undisturbed,
+                                    rotating
+                                    pan around on burner for even browning, until chicken is deep golden brown and
+                                    releases
+                                    easily from pan, 14–17 minutes. Transfer chicken thighs to a plate, arranging skin
+                                    side up.
+                                </p>
+                                <h4>Step 3</h4>
+                                <p>Pour off all but 4 tsp. oil from pan; discard. Return pan to medium heat and cook
+                                    <strong>3
+                                        medium shallots, thinly sliced</strong>, stirring often, until just tender,
+                                    about 4
+                                    minutes. Add <strong>12 garlic cloves, thinly sliced</strong>, and cook, stirring
+                                    often,
+                                    until fragrant, about 3 minutes. Sprinkle in <strong>1 Tbsp. all-purpose
+                                        flour</strong> and
+                                    stir to coat, then remove from heat (make sure pan is far away from the burner).</p>
+                                <h4>Step 4</h4>
+                                <p>Carefully pour in <strong>1¼ cups dry vermouth,1 cup low-sodium chicken broth,⅔ cup
+                                        olive
+                                        brine</strong>, and. Place pan over medium-high heat and bring liquid to a
+                                    simmer. Cook,
+                                    stirring occasionally, until sauce is reduced by two thirds, 9–12 minutes. Remove
+                                    from heat;
+                                    stir in <strong>1 tsp. finely grated lemon zest</strong> and remaining <strong>⅓ cup
+                                        vodka</strong>. Taste sauce and season with more salt if needed.</p>
+                                <h4>Step 5</h4>
+                                <p>Nestle chicken thighs, skin side up, into sauce. Scatter <strong>one 5.5-oz. jar
+                                        pitted
+                                        Castelvetrano or other green olives, rinsed (about 1 cup)</strong>, over,
+                                    allowing most
+                                    of them to fall into the sauce. Bake, uncovered, until chicken is cooked through and
+                                    an
+                                    instant-read thermometer inserted into the thickest part of a thigh registers 165°,
+                                    25–35
+                                    minutes.</p>
+                                <h4>Step 6</h4>
+                                <p>Remove pan from heat and scatter<strong>parsley leaves with tender stems</strong>
+                                    over
+                                    chicken and sauce. Serve with <strong>lemon wedges</strong> for squeezing over if
+                                    desired.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div id="user" class="user-reviews">
+                    <h2>User Reviews</h2>
+                    <hr>
+                    <ul>
+                        <li>"This tiramisu was a heavenly delight! Each bite was a perfect blend of creamy
+                            mascarpone, coffee-soaked ladyfingers, and a hint of cocoa on top. It was rich, indulgent,
+                            and absolutely addictive. I couldn't resist going back for seconds, and I'm already planning
+                            to make it again for my next special occasion!"
+                            <div class="rating">
+                                <span class="stars">★★★★☆</span>
+                                <p> Katty Willams</p>
+                            </div>
+                        </li>
+                        <li>"This tiramisu was a taste of Italy right in my own kitchen! The layers of
+                            coffee-infused ladyfingers and velvety mascarpone cheese were simply divine. It was light
+                            yet satisfying, with just the right balance of sweetness and coffee flavor. One bite
+                            transported me to a café in Rome. Bravo on a truly authentic and delicious dessert!""
+                            <div class="rating">
+                                <span class="stars">★★★★★</span>
+                                <p>Rose Gardeya</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- USER -->
+        <section class="user-profile-pages">
+            <h2>User Profile Pages</h2>
+            <hr>
+            <div class="submitted-recipes">
+                <div class="recipeU">
+                    <div id="ruc">
+                        <img class="user" src="./images/user/1.jpg" alt="User Recipe 1">
+                        <h3>Billie Villegas</h3>
+                        <q>Passionate home cook exploring new recipes and flavors. Always experimenting in the kitchen
+                            and sharing my culinary adventures!</q>
+                        <h4>User Reviews</h4>
+                        <hr>
+                        <ul>
+                            <li>Recipe Title: "One of my favorites! Always a hit whenever I make it."</li>
+                            <li>Recipe Title: "Fantastic recipe! Will be adding it to my regular rotation."</li>
+                            <li>Recipe Title: "Tried this recipe last night and it was a hit with everyone!</li>
+                            <li>Recipe Title: "Absolutely delicious. Will be sharing this with friends."</li>
+                        </ul>
+                        <p><button class="ub">Contact</button></p>
+                    </div>
+                </div>
+                <div class="recipeU">
+                    <div id="ruc">
+                        <img class="user" src="./images/user/2.jpg" alt="User Recipe 2">
+                        <h3>Lee Pearson</h3>
+                        <q>Professional chef with a love for creating exquisite dishes. Here to share my expertise and
+                            inspire others to elevate their cooking skills!</q>
+                        <h4>User Reviews</h4>
+                        <hr>
+                        <ul>
+                            <li>Recipe Title: "This recipe was amazing! Will definitely make it again.</li>
+                            <li>Recipe Title: "Delicious and easy to follow. My family loved it!"</li>
+                            <li>Recipe Title: "Great flavor combination. Highly recommend trying this recipe!"</li>
+                            <li>Recipe Title: "Simple yet delicious. Perfect for a quick meal."</li>
+                        </ul>
+                        <p><button class="ub">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-sharing">
+            <h2>Social Sharing</h2>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <i class='fas fa-arrow-alt-circle-up'></i>
+
+        </section>
+        <footer>
+            <p>&copy; 2024 Recipe Sharing Website</p>
+        </footer>
+    </main>
+</body>
+
+</html>
