@@ -15,41 +15,41 @@
         margin: auto;
         color: white;
         border-radius: 10px;
-      }
-      
-      .topnav {
+    }
+
+    .topnav {
         overflow: hidden;
         position: relative;
-      }
-      
-      .topnav #myLinks {
+    }
+
+    .topnav #myLinks {
         display: none;
-      }
-      
-      .topnav a {
+    }
+
+    .topnav a {
         color: white;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
         display: block;
-      }
-      
-      .topnav a.icon {
+    }
+
+    .topnav a.icon {
         background: black;
         display: block;
         position: absolute;
         right: 0;
         top: 0;
         margin: 0px 35px 0px 0px;
-      }
-      
-      .topnav a:hover {
+    }
+
+    .topnav a:hover {
         background-color: #ddd;
-      }
-      
-      .active {
+    }
+
+    .active {
         color: white;
-      }
+    }
 
     h2 {
         color: red;
@@ -94,7 +94,7 @@
     .popular-recipes {
         text-align: center;
     }
-  
+
     section {
         text-align: center;
     }
@@ -104,7 +104,7 @@
         height: 90px;
         border-radius: 50%;
     }
-    
+
     .stars {
         color: orange;
     }
@@ -235,7 +235,7 @@
 
     .user-profile-pages {
         text-align: center;
-        background-color:#f7beb9;
+        background-color: #f7beb9;
         padding: 10px;
     }
 
@@ -320,7 +320,7 @@
         width: 100%;
         height: auto;
         border-radius: 0px;
-        margin:0px;
+        margin: 0px;
     }
 
     .user-reviews ul {
