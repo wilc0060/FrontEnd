@@ -11,6 +11,46 @@
         padding: 10px;
     }
 
+    .mobile-container {
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0px 35px 0px 0px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+      }
+      
+      .active {
+        color: white;
+      }
+
     h2 {
         color: red;
     }
@@ -143,7 +183,6 @@
     #rlh {
         color: #FFD700;
         font-weight: bold;
-        border: 1px solid black;
         text-align: center;
     }
 

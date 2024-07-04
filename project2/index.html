@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-PjDFR3t0flOBN4HjFJ6igAo+n/RI8z+i56ORLe7gOm7z0HsjFArO2prNqDAwa8nW" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-uFCfBC5iX7b8gV5k9q1KvheUXtFhF41cBjZQ1RUd9RY5kZMZyVfjGSLqmxK1PIzBT8Ol9OnEX3gCQ61LiX3b3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="mobile-container">
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks">
+                    <a href="#about">About</a>
+                    <a href="#project">Recipes</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+    </header>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
