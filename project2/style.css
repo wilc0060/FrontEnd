@@ -52,21 +52,27 @@
         color: black;
     }
 
-    .gs {
-        background-color: black;
-        color: white;
-        padding: 8px 10px;
-        margin: 10px 50px 10px 50px;
-        border-radius: 7px;
-        font-size: 14px;
+    #btns {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
 
     }
 
-    .lm {
-        padding: 8px 10px;
-        margin: 10px 50px 10px 50px;
+    .gs {
+        background-color: black;
+        color: white;
+        padding: 10px 24px;
         border-radius: 7px;
-        font-size: 14px;
+        font-size: 12px;
+        margin: 19px 0px 16px 0px;
+    }
+
+    .lm {
+        margin: 19px 0px 16px 0px;
+        padding: 10px 24px;
+        border-radius: 7px;
+        font-size: 12px;
     }
 
     h1 {
@@ -83,12 +89,7 @@
 
     h3 {
         margin: 10px;
-        text-align: left;
-    }
-
-    p {
-        padding: 10px;
-        font-family: ;
+        text-align: center;
     }
 
     .card {
@@ -101,6 +102,7 @@
     }
 
     .card button {
+        display: inline-block;
         border: none;
         outline: 0;
         padding: 12px;
@@ -120,21 +122,126 @@
         width: 100%;
     }
 
+    ol {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 1.5rem;
+    }
+
+    svg {
+        color: #1E40AF;
+        height: 0.625rem;
+    }
+
+    .vidph3 {
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .vidp {
+        font-weight: 400;
+
+    }
+
+    .line {
+        display: none;
+        width: 100%;
+        height: 0.125rem;
+        background-color: #E5E7EB;
+    }
+
+    #v {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 9999px;
+        box-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        --ring-color: #ffffff;
+        width: 1.37rem;
+        height: 1.5rem;
+        background-color: white;
+    }
+
     #section {
         background-color: #f3f3f7;
     }
 
-    #ud{
+    #Help {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .svgi {
+        width: 30px;
+    }
+
+    #grid {
+        display: flex;
+        justify-content: flex-start;
+        margin: 11px;
+    }
+
+    .icon{   
+        margin: 0px 20px; 
+    }
+
+    #ud {
         background-color: #f3f3f7;
         padding: 8px;
     }
 
     .sph {
-        padding: 17px;
+        padding: 5px;
     }
 
-    .uiux{
-        background-color:#e0e0ec ;
+    .uiux {
+        background-color: #e0e0ec;
+    }
+
+    .cus {
+        border-radius: 4px;
+        padding: 10px;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        width: 97%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+    }
+
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .sac {
+        color: #000;
+        padding: 10px 24px;
+        background-color: #8e8ea4;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        font-style: normal;
+        margin: 0px 50px 0px 50px;
+
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
     }
 
     #wds {
@@ -147,6 +254,7 @@
     }
 
     #svg {
+        padding: 5px;
         color: white;
         background-repeat: no-repeat;
         background-size: cover;
@@ -154,6 +262,14 @@
     }
 
     #scontact {
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-image: url(./images/images/contact.png);
     }
+
+    /*Tablet screen */
+@media only screen and (min-width:760px) {
+
+}
 }

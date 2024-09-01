@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>DS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +17,7 @@
                 <a href="#home" class="active">Logo</a>
                 <div id="myLinks">
                     <a href="#about">About</a>
-                    <a href="#project">project</a>
+                    <a href="#project">Project</a>
                     <a href="#contact">Contact</a>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -29,11 +28,15 @@
     <main>
         <!-- HOME -->
         <section id="section">
-            <h1>Your One-stop Shop for Digital Solutions</h1>
-            <p>Elvate your digital presence with our comprehensive services </p>
-            <img class="img" src="./images/images/home.png" alt="home">
-            <Button class="gs">Get Started</Button>
-            <button class="lm">Learn More</button>
+            <div>
+                <h1>Your One-stop Shop for Digital Solutions</h1>
+                <p>Elvate your digital presence with our comprehensive services </p>
+                <img class="img" src="./images/images/home.png" alt="home">
+            </div>
+            <div id="btns">
+                <Button class="gs">Get Started</Button>
+                <button class="lm">Learn More</button>
+            </div>
         </section>
         <!-- web development -->
         <section id="wds">
@@ -52,19 +55,19 @@
             <div class="sph">
                 <h2>Photography</h2>
                 <div class="card">
-                    <img class="img"  src="./images/images/ph3.png" alt="">
-                        <h3>Corporate Headshots</h3>
-                        <p>Present your team with polished, consistent portraits</p>
-                        <p><button>View More</button></p>
+                    <img class="img" src="./images/images/ph3.png" alt="">
+                    <h3>Corporate Headshots</h3>
+                    <p>Present your team with polished, consistent portraits</p>
+                    <p><button>View More</button></p>
                 </div>
                 <div class="card">
-                    <img class="img"  src="./images/images/ph5.png" alt="">
+                    <img class="img" src="./images/images/ph5.png" alt="">
                     <h3>Product Photography</h3>
                     <p>Showcase your products in the best light</p>
                     <p><button>View More</button></p>
                 </div>
                 <div class="card">
-                    <img class="img"  src="./images/images/ph4.png" alt="">
+                    <img class="img" src="./images/images/ph4.png" alt="">
                     <h3>Event Coverage</h3>
                     <p>Capture the energy and atmosphere of your events</p>
                     <p><button>View More</button></p>
@@ -76,14 +79,37 @@
 
         <section id="svg">
             <h2>Videography</h2>
-            <ul>
-                <li>Pre-Production</li>
-                <p>Meticulous planning to ensure a successful shoot</p>
-                <li>Post-Production</li>
-                <p>Editing and polishing the final video product</p>
-                <li>Production</li>
-                <p>Capturing high-quality footage with skilled cinematography</p>
-            </ul>
+            <ol>
+                <li>
+                    <div class="fic">
+                        <div></div>
+                    </div>
+                    <div>
+                        <h3 class="vidph3">Pre-Production</h3>
+                        <p class="vidp">Meticulous planning to ensure a successful shoot</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="fic">
+                        <div class="line"></div>
+                    </div>
+                    <div>
+                        <h3 class="vidph3">Production</h3>
+                        <p class="vidp">Capturing high-quality footage with skilled cinematography</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="fic">
+                        <div></div>
+                    </div>
+                    <div>
+                        <h3 class="vidph3">Post-Production</h3>
+                        <p class="vidp">Editing and polishing the final video product</p>
+                    </div>
+                </li>
+            </ol>
         </section>
         <!-- UX/UI Design -->
         <section id="ud">
@@ -103,18 +129,37 @@
         </section>
         <!-- HWHYCG -->
         <section id="Help">
-            <div class="container">
-                <h2>How We Help Your Company Grow</h2>
-                <i class="fa-regular fa-reflect-both"></i>
-                <h3>Strategic Alignment</h3>
-                <p>Ensure your digital presence supports your business goals</p>
-                <i class="fa-thin fa-rocket"></i>
-                <h3>Innovative Solutions</h3>
-                <p>Leverage the latest technologies to drive growth</p>
-                <i class="fa-thin fa-display-chart-up-circle-dollar"></i>
-                <h3>Measurable Results</h3>
-                <p>Data-driven insights to optimize your performance</p>
-            </div>
+        <h2>How We Help Your Company Grow</h2>
+                <div id="grid">
+                    <div class="icon">
+                       <img class="svgi" src="./images/svg/reflect-both.svg" alt="rb">
+                    </div>
+
+                    <div class="descriptions">
+                        <h3>Strategic Alignment</h3>
+                        <p>Ensure your digital presence supports your business goals</p>
+                    </div>
+                </div>
+                <div id="grid">
+                    <div class="icon">
+                        <img class="svgi"  src="./images/svg/rocket.svg" alt="">
+                    </div>
+
+                    <div class="descriptions">
+                        <h3>Innovative Solutions</h3>
+                        <p>Leverage the latest technologies to drive growth</p>
+                    </div>
+                </div>
+                <div id="grid">
+                    <div class="icon">
+                        <img class="svgi"  src="./images/svg/display-chart-up-circle-dollar.svg" alt="">
+                    </div>
+
+                    <div class="descriptions">
+                        <h3>Measurable Results</h3>
+                        <p>Data-driven insights to optimize your performance</p>
+                    </div>
+                </div>
         </Section>
         <!-- Process -->
         <section id="section">
@@ -125,34 +170,36 @@
             <p>Develop a tailored plan to achieve success</p>
             <h3>Execution</h3>
             <p>Bring your vision to life with expertise</p>
-            <img class="img"  src="./images/images/op.png" alt="op">
+            <img class="img" src="./images/images/op.png" alt="op">
         </section>
         <!-- Contac Us -->
-         <section id="scontact">
-             <div>
-                 <div>
-                     <h2>Contact Us</h2>
-                     <p>Get in touch for your next project</p>
-                 </div>
-                 <div>
-                     <form action=""></form>
-                     <label for="fname">First Name</label>
-                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                     <label for="lname">Last Name</label>
-                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                     <label for="country">Country</label>
-                     <select id="country" name="country">
-                         <option value="australia">Australia</option>
-                         <option value="canada">Canada</option>
-                         <option value="usa">USA</option>
-                     </select>
-                     <label for="subject">Subject</label>
-                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                     <input type="Schedule a Consultation" value="Schedule a Consultation">
-                     </form>
-                 </div>
-             </div>
-         </section>
+        <section id="scontact">
+            <div>
+                <div>
+                    <h2>Contact Us</h2>
+                    <p>Get in touch for your next project</p>
+                </div>
+                <div class="cus">
+                    <form action="action_page.php"></form>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Canada</option>
+                        <option value="canada">Nigeria</option>
+                        <option value="usa">USA</option>
+
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input class="sac" type="Schedule a Consultation" value="Schedule a Consultation">
+                    </form>
+                </div>
+            </div>
+        </section>
         <footer>
 
         </footer>
