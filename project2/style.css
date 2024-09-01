@@ -166,6 +166,7 @@
 
     #section {
         background-color: #f3f3f7;
+        text-align: center;
     }
 
     #Help {
@@ -184,8 +185,8 @@
         margin: 11px;
     }
 
-    .icon{   
-        margin: 0px 20px; 
+    .icon {
+        margin: 0px 20px;
     }
 
     #ud {
@@ -254,11 +255,13 @@
     }
 
     #svg {
+        text-align: center;
         padding: 5px;
         color: white;
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url(./images/images/video.png)
+        
     }
 
     #scontact {
@@ -266,10 +269,19 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url(./images/images/contact.png);
+        text-align: center;
     }
-
-    /*Tablet screen */
-@media only screen and (min-width:760px) {
-
 }
+
+/*Tablet screen */
+@media only screen and (min-width:768px) {
+    .sph {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        justify-content: center;
+
+    }
 }
