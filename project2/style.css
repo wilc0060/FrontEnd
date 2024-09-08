@@ -7,17 +7,14 @@
 
     header {
         background-color: white;
-        padding: 0px;
-        margin: 6px;
     }
 
     .mobile-container {
-        margin: auto;
         color: white;
-        border-radius: 10px;
     }
 
     .topnav {
+        background-color: black;
         overflow: hidden;
         position: relative;
     }
@@ -27,7 +24,7 @@
     }
 
     .topnav a {
-        color: black;
+        color: white;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
@@ -35,21 +32,39 @@
     }
 
     .topnav a.icon {
-        background: black;
-        color: white;
+        background: white;
+        color: black;
         display: block;
         position: absolute;
         right: 0;
         top: 0;
-        margin: 0px 35px 0px 0px;
+        margin: 12px 35px 0px 0px;
     }
 
     .topnav a:hover {
         background-color: #ddd;
+        color: black;
     }
 
     .active {
-        color: black;
+        color: white;
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
     }
 
     #btns {
@@ -65,40 +80,36 @@
         padding: 10px 24px;
         border-radius: 7px;
         font-size: 12px;
-        margin: 19px 0px 16px 0px;
+        margin: 19px 10px 16px 10px;
     }
 
     .lm {
-        margin: 19px 0px 16px 0px;
+        margin: 19px 10px 16px 10px;
         padding: 10px 24px;
         border-radius: 7px;
         font-size: 12px;
     }
 
     h1 {
-        margin: 20px;
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
     }
 
     h2 {
-        padding: 10px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
     }
 
     h3 {
-        margin: 10px;
         text-align: center;
     }
 
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 300px;
+        max-width: 240px;
         margin: auto;
         text-align: center;
         font-family: arial;
-        margin: 20px 50px 20px 50px;
     }
 
     .card button {
@@ -135,15 +146,18 @@
         height: 0.625rem;
     }
 
+    #OP {
+        background-color: #f3f3f7;
+    }
+
+    .ops {
+        padding: 10px;
+    }
+
     .vidph3 {
-        font-weight: 600;
         text-align: left;
     }
 
-    .vidp {
-        font-weight: 400;
-
-    }
 
     .line {
         display: none;
@@ -177,16 +191,20 @@
 
     .svgi {
         width: 30px;
+        display: inline-block;
+        position: absolute;
     }
 
     #grid {
-        display: flex;
-        justify-content: flex-start;
-        margin: 11px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        margin: 11px 0px 10px 3px;
     }
 
-    .icon {
-        margin: 0px 20px;
+    .descriptions {
+        padding: 11px 0px 20px 0px;
     }
 
     #ud {
@@ -194,13 +212,22 @@
         padding: 8px;
     }
 
-    .sph {
-        padding: 5px;
+    #ud p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        padding: 0px 0px 10px 20px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .uiux {
-        background-color: #e0e0ec;
+    .sph {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding: 1.5rem;
+        margin: auto;
     }
+
 
     .cus {
         border-radius: 4px;
@@ -250,8 +277,9 @@
     }
 
     .wds-context {
-        background-color: #f3f3f7;
-        margin: 50px 0px 50px;
+        background-color: white;
+        margin: auto;
+        padding: 18px;
     }
 
     #svg {
@@ -261,7 +289,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url(./images/images/video.png)
-        
     }
 
     #scontact {
@@ -275,13 +302,120 @@
 
 /*Tablet screen */
 @media only screen and (min-width:768px) {
+
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topnav #myLinks {
+        display: flex;
+
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
     .sph {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 15px;
-        grid-row-gap: 15px;
-        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding-bottom: 2.5rem;
+        margin: auto;
+        grid-gap: 1.5rem;
+    }
 
+    .card {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .gs {
+        margin: 19px 20px 16px 20px;
+    }
+
+    .lm {
+        margin: 19px 20px 16px 20px;
+    }
+
+
+    .wds-context p {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        padding: 10px;
+    }
+
+    .wds-context h3 {
+        text-align: left;
+        padding: 15px;
+    }
+
+    #grid {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #ud h3 {
+        text-align: left;
+        padding: 15px 0px 0px 20px;
+        text-decoration: underline;
+    }
+
+    #ud p {
+        padding: 0px 0px 20px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+    }
+
+    #OP h3 {
+        text-align: left;
+        padding: 10px 0px 0px 30px;
+    }
+
+
+    #OP p {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        padding: 0px 0px 20px 30px;
+    }
+}
+
+/*Desktop screen */
+@media only screen and (min-width:1024px) {
+    .sctxt {
+        display: flex;
+    }
+
+    .sctxt1 h1 {
+        font-size: 50px;
+    }
+
+    .sctxt1 {
+        width: 50%;
+        padding: 60px;
+    }
+
+    .sctxt2 {
+        width: 50%;
+    }
+
+    #grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .sph {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: auto;
+        column-gap: 1.5rem;
     }
 }

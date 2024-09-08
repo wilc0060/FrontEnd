@@ -178,12 +178,14 @@
 
     .rci {
         width: 100%;
+        display: block;
     }
 
-    #rlh {
+    .recipe-listings h3 {
         color: #FFD700;
         font-weight: bold;
         text-align: center;
+        font-size: 25px;
     }
 
     .recipe-details {
@@ -195,6 +197,7 @@
     }
 
     .rdi {
+        display: block;
         width: 100%;
     }
 
@@ -333,4 +336,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+/*Desktop screen */
+@media only screen and (min-width:1024px) {
+    .rdi {
+        height: 15rem;
+        object-fit: cover;
+        width:100%;
+    }
+
+    .recipeC{
+        width: 70%;
+        margin: 10px 60px 10px 60px;
+    }
+  
 }

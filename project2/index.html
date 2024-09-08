@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DS</title>
+    <title>Digital Solutions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,31 +31,48 @@
     <main>
         <!-- HOME -->
         <section id="section">
-            <div>
-                <h1>Your One-stop Shop for Digital Solutions</h1>
-                <p>Elvate your digital presence with our comprehensive services </p>
-                <img class="img" src="./images/images/home.png" alt="home">
-            </div>
-            <div id="btns">
-                <Button class="gs">Get Started</Button>
-                <button class="lm">Learn More</button>
+            <div class="sctxt">
+                <div class="sctxt1">
+                    <h1>Your One-stop Shop for Digital Solutions</h1>
+                    <p>Elvate your digital presence with our comprehensive services </p>
+                    <Button class="gs">Get Started</Button>
+                    <button class="lm">Learn More</button>
+                </div>
+                <div class="sctxt2">
+                    <img class="img" src="./images/images/home.png" alt="home">
+                </div>
             </div>
         </section>
         <!-- web development -->
         <section id="wds">
             <div class="wds-context">
                 <h2>Web Development</h2>
-                <h3>Custom Websites</h3>
-                <p>Tailored solutions to showcase your brand</p>
-                <h3>E-commerce Integration</h3>
-                <p>Drive sales with a seamless online store</p>
-                <h3>Web Applications</h3>
-                <p>Empower your business with intuitive web apps</p>
+                <div>
+                    <div>
+                        <h3>Custom Websites</h3>
+                        <div>
+                            <p>Tailored solutions to showcase your brand</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>E-commerce Integration</h3>
+                        <div>
+                            <p>Drive sales with a seamless online store</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Web Applications</h3>
+                        <div>
+                            <p>Empower your business with intuitive web apps</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Photography -->
         <section id="section">
             <h2>Photography</h2>
+            <hr>
             <div class="sph">
                 <div class="card">
                     <div>
@@ -60,7 +80,7 @@
                     </div>
                     <h3>Corporate Headshots</h3>
                     <p>Present your team with polished, consistent portraits</p>
-                    <p><button>View More</button></p>
+                    <button class="pbtn">View More</button>
                 </div>
 
                 <div class="card">
@@ -69,21 +89,21 @@
                     </div>
                     <h3>Product Photography</h3>
                     <p>Showcase your products in the best light</p>
-                    <p><button>View More</button></p>
+                    <button class="pbtn">View More</button>
                 </div>
 
                 <div class="card">
                     <img class="img" src="./images/images/ph4.png" alt="">
                     <h3>Event Coverage</h3>
                     <p>Capture the energy and atmosphere of your events</p>
-                    <p><button>View More</button></p>
+                    <button class="pbtn">View More</button>
                 </div>
 
                 <div class="card">
                     <img class="img" src="./images/images/ph1.png" alt="">
                     <h3>Capture the Perfect Shot</h3>
                     <p>We create stunning shots that capture your story.</p>
-                    <p><button>View More</button></p>
+                    <button class="pbtn">View More</button>
                 </div>
             </div>
         </section>
@@ -92,6 +112,7 @@
 
         <section id="svg">
             <h2>Videography</h2>
+            <hr>
             <ol>
                 <li>
                     <div class="fic">
@@ -127,62 +148,70 @@
         <!-- UX/UI Design -->
         <section id="ud">
             <h2>UX/UI Design</h2>
-            <div class="uiux">
-                <h3>User Research</h3>
-                <p>Understand your audience to create tailored experiences</p>
-            </div>
-            <div class="uiux">
-                <h3>Interactive Prototyping</h3>
-                <p>Iterate and refine designs for optimal usability</p>
-            </div>
-            <div class="uiux">
-                <h3>Responsive Design</h3>
-                <p>Ensure seamless experiences across all devices</p>
+            <hr>
+            <picture>
+                <source media="(min-width: )" srcset="">
+                <img src="" alt="">
+            </picture>
+            <div>
+                <div class="uiux1">
+                    <h3>User Research</h3>
+                    <p>Understand your audience to create tailored experiences</p>
+                </div>
+                <div class="uiux2">
+                    <h3>Interactive Prototyping</h3>
+                    <p>Iterate and refine designs for optimal usability</p>
+                </div>
+                <div class="uiux">
+                    <h3>Responsive Design</h3>
+                    <p>Ensure seamless experiences across all devices</p>
+                </div>
             </div>
         </section>
         <!-- HWHYCG -->
         <section id="Help">
             <h2>How We Help Your Company Grow</h2>
             <div id="grid">
-                <div class="icon">
-                    <img class="svgi" src="./images/svg/reflect-both.svg" alt="rb">
+                <div>
+                    <div class="descriptions">
+                        <i class="fa-solid fa-reflect-both"></i>
+                        <img class="svgi" src="./images/svg/reflect-both.svg" alt="rb">
+                        <h3>Strategic Alignment</h3>
+                        <p>Ensure your digital presence supports your business goals</p>
+                    </div>
                 </div>
 
-                <div class="descriptions">
-                    <h3>Strategic Alignment</h3>
-                    <p>Ensure your digital presence supports your business goals</p>
-                </div>
-            </div>
-            <div id="grid">
-                <div class="icon">
-                    <img class="svgi" src="./images/svg/rocket.svg" alt="">
-                </div>
-
-                <div class="descriptions">
-                    <h3>Innovative Solutions</h3>
-                    <p>Leverage the latest technologies to drive growth</p>
-                </div>
-            </div>
-            <div id="grid">
-                <div class="icon">
-                    <img class="svgi" src="./images/svg/display-chart-up-circle-dollar.svg" alt="">
+                <div>
+                    <div class="descriptions">
+                        <!-- <i class="fa fa-rocket"> do this when theres wifi</i> -->
+                        <img class="svgi" src="./images/svg/rocket.svg" alt="">
+                        <h3>Innovative Solutions</h3>
+                        <p>Leverage the latest technologies to drive growth</p>
+                    </div>
                 </div>
 
-                <div class="descriptions">
-                    <h3>Measurable Results</h3>
-                    <p>Data-driven insights to optimize your performance</p>
+                <div>
+                    <div class="descriptions">
+                        <!-- <i class="fa fa-line-chart"></i> -->
+                        <img class="svgi" src="./images/svg/display-chart-up-circle-dollar.svg" alt="">
+                        <h3>Measurable Results</h3>
+                        <p>Data-driven insights to optimize your performance</p>
+                    </div>
                 </div>
             </div>
         </Section>
         <!-- Process -->
-        <section id="section">
+        <section id="OP">
             <h2>Our Process</h2>
-            <h3>Discovery</h3>
-            <p>Understand your unique needs and goals</p>
-            <h3>Strategy</h3>
-            <p>Develop a tailored plan to achieve success</p>
-            <h3>Execution</h3>
-            <p>Bring your vision to life with expertise</p>
+            <hr>
+            <div class="ops">
+                <h3>Discovery</h3>
+                <p>Understand your unique needs and goals</p>
+                <h3>Strategy</h3>
+                <p>Develop a tailored plan to achieve success</p>
+                <h3>Execution</h3>
+                <p>Bring your vision to life with expertise</p>
+            </div>
             <img class="img" src="./images/images/op.png" alt="op">
         </section>
         <!-- Contac Us -->
@@ -203,6 +232,7 @@
                         <option value="australia">Canada</option>
                         <option value="canada">Nigeria</option>
                         <option value="usa">USA</option>
+                        <option value="Uk">UK</option>
 
                     </select>
                     <label for="subject">Subject</label>
@@ -213,10 +243,8 @@
                 </div>
             </div>
         </section>
-        <footer>
-
-        </footer>
     </main>
+    <footer> </footer>
     <script>
         function myFunction() {
             var x = document.getElementById("myLinks");
