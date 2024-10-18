@@ -3,11 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tamunoiprinye Wilcox - Front-end Developer Portfolio</title>
+  <title> 5AIKO Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -17,7 +20,7 @@
     <div class="mobile-container">
       <!-- Top Navigation Menu -->
       <div class="topnav">
-        <a href="#home" class="active">Logo</a>
+        <a href="#home" class="active">5AIKO ENTERTAINMENT</a>
         <div id="myLinks">
           <a href="#about">About</a>
           <a href="#project">Projects</a>
@@ -29,6 +32,53 @@
       </div>
   </header>
   <main>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <img src="images/carou/2.jpeg" alt="Los Angeles" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>WEB DESGIN</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/carou/3.jpg" alt="Chicago" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>UI/UX</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/services/ph1 - Copy.png" alt="" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>PHOTOGRAPHY</h3>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
     <!-- Starting the main content of the page -->
     <section id="home">
       <div class="container">
@@ -93,79 +143,103 @@
     </section>
 
     <!-- SERVICES PAGE -->
-    <section>
-      <div class="container">
-        <div class="service">
-          <img src="./images/services/images.jpeg" alt="">
+    <section class="s">
+      <div id="sp">
+        <div class="service-card">
+          <div>
+            <img class="img" src="./images/services/5.jpeg" alt="web-design">
+          </div>
           <h2>Web Design</h2>
           <p>I specialize in creating visually appealing and user-friendly website designs tailored to your brand and
             target audience.</p>
-        </div>
-        <div>
           <button class="hm">Hire Me</button>
         </div>
 
-        <div class="service">
-          <img src="./images/services/download (3).jpeg" alt="">
+        <div class="service-card">
+          <div>
+            <img class="img" src="./images/carou/4.jpeg" alt="web-development">
+          </div>
           <h2>Web Development</h2>
           <p>From simple static websites to complex web applications, I offer expertise in front-end development using
             HTML, CSS, and JavaScript.</p>
-        </div>
-        <div>
           <button class="hm">Hire Me</button>
         </div>
 
-        <div class="service">
-          <img src="./images/services/download (4).jpeg" alt="">
+        <div class="service-card">
+          <div>
+            <img class="img" src="./images/services/download (4).jpeg" alt="Photography">
+          </div>
           <h2>Photography</h2>
-          <p>Ensuring an intuitive user experience (UX) and an attractive user interface (UI) is crucial for the success
-            of any digital product. I focus on creating designs that are both functional and aesthetically pleasing.</p>
-        </div>
-        <div>
+          <p>Ensuring an intuitive user experience (UX) and an attractive user interface (UI) is crucial for the
+            success
+            of any digital product. I focus on creating designs that are both functional and aesthetically pleasing.
+          </p>
           <button class="hm">Hire Me</button>
         </div>
 
-        <div class="service">
-          <img src="./images/services/uiux2 - Copy.png" alt="">
+        <div class="service-card">
+          <div>
+            <img class="img" src="./images/carou/3.jpg" alt="uiux">
+          </div>
           <h2>UI/UX</h2>
-          <p>Ensuring an intuitive user experience (UX) and an attractive user interface (UI) is crucial for the success
-            of any digital product. I focus on creating designs that are both functional and aesthetically pleasing.</p>
-        </div>
-        <div>
+          <p>Ensuring an intuitive user experience (UX) and an attractive user interface (UI) is crucial for the
+            success
+            of any digital product. I focus on creating designs that are both functional and aesthetically pleasing.
+          </p>
           <button class="hm">Hire Me</button>
         </div>
 
-        <div class="service">
-          <img src="./images/services/video - Copy.png" alt="">
-          <h2>Videography</h2>
-          <p>Professional videography services launching soon. From cinematic storytelling to dynamic visuals, we bring your vision to life.</p>
-        </div>
-        <div>
-          <button class="cs">Coming Soon</button>
-        </div>
     </section>
 
-    <section id="project">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="project-grid">
-          <div class="project">
-            <img src="./images/projetcs/p1.png" alt="Project 1" />
-            <h3>Project 1</h3>
-            <p>Description of Project 1</p>
+    <section id="p">
+      <div id="Project">
+        <div class="project-card">
+          <div>
+            <img class="img" src="images/projetcs/emoji.jpg" alt="emojis">
           </div>
-          <div class="project">
-            <img src="./images/projetcs/p2.png" alt="Project 2" />
-            <h3>Project 2</h3>
-            <p>Description of Project 2</p>
-          </div>
-          <!-- Add more project items as needed -->
+          <h3>PROJECT 1</h3>
+          <p>EMOJI DETAILS</p>
+          <a href="https://wilc0060.github.io/grid-layout-with-flex-components/">
+            <button class="h">HERE</button>
+          </a>
         </div>
+
+        <div class="project-card">
+          <div>
+            <img class="img" src="images/projetcs/website.jpg" alt="website">
+          </div>
+          <h3>PROJECT 2</h3>
+          <P>ALLGONQUIN COLLEGE WEBSITE REBUILD </P>
+          <a href="https://wilc0060.github.io/mtm6201-week1/mtm6201-midterm/">
+            <button class="h">HERE</button>
+          </a>
+        </div>
+
+        <div class="project-card">
+        <div>
+          <img class="img" src="images/projetcs/6.jpg" alt="wuixux">
+        </div>
+        <h3>PROJECT 3</h3>
+        <P>COZENO UI/UX DESIGN</P>
+        <a href="https://www.figma.com/design/Y5O69bBj0meEAwgYUQbFj5/COZENO?m=auto&t=G1QQUhKeZebSQ8Yc-6">
+          <button class="h">HERE</button>
+        </a>
       </div>
+
+      <div class="project-card">
+      <div>
+        <img class="img" src="images/projetcs/app.jpg" alt="app">
+      </div>
+      <h3>PROJECT 4</h3>
+      <P>MENSTRUATION APP UI/UX DESIGN</P>
+      <a href="https://www.figma.com/design/Hfg2LhGwaoa7M76EU2FwzB/Hi-fi-mobile(Jenyben)?node-id=0-1&node-type=canvas&t=tL6f4TppP0582aAE-0">
+        <button class="h">HERE</button>
+      </a>
+    </div>
     </section>
 
     <!--PRICE SECTION-->
-    <section>
+    <section class="PS">
       <h3 class="ph3">My Price</h3>
       <hr />
       <div id="cc">
